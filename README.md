@@ -35,6 +35,9 @@ gonew github.com/chengzhycn/go-cli-template your-org/your-cli-app
 # Navigate to your new project
 cd your-cli-app
 
+# Apply the github ci
+mv _github .github
+
 # Initialize git and push to your repository
 git init
 git add .
@@ -51,6 +54,9 @@ If you prefer to clone and customize manually:
 # Clone the template
 git clone https://github.com/chengzhycn/go-cli-template.git your-cli-app
 cd your-cli-app
+
+# Apply the github ci
+mv _github .github
 
 # Remove template-specific files
 rm -rf .git
